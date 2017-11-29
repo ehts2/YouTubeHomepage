@@ -1,3 +1,9 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++ Navbar ++++++++++++++++++++++++++++++++++++++ */
+ 
 .sticky-header {
     position: sticky;
     top: 0;
@@ -7,9 +13,9 @@
     height: 56px;
     max-width: 2001px;
     padding: 0 16px;
-    border-bottom: 1px solid #D3D3D3;
+    border-bottom: 0 #D3D3D3;
     background-color: #fff;
-    box-shadow: 0 0px 1px 0 #D3D3D3; 
+    box-shadow: 0 0px .5px 1px #D3D3D3; 
 }
 
 .sticky-header * {
@@ -36,7 +42,7 @@
     padding: 8px;
     margin-right: 8px;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 750;
     opacity: .4;
     border: none;
     background-color: #fff;
@@ -72,7 +78,6 @@
 .search-bar-wrapper {
     display: flex;
     align-items: center;
-    flex: 0 1 2;
     height: 32px;
     margin: 0 40px;
 }
@@ -109,7 +114,7 @@ input {
 }
 
 .right-nav {
-    flex: 0 1 1;
+    padding: 8px;
 }
 
 .sign-btn {
@@ -125,3 +130,112 @@ input {
     font-weight: 550;
     letter-spacing: 0.007px;
 }
+
+
+/* ++++++++++++++++++++++++++++++++++++++ Main Page ++++++++++++++++++++++++++++++++++++++ */
+
+.main-page {
+    display: flex;
+    padding: 25px 98px;
+}
+
+.video-and-comments {
+    display: inline-flex;
+    width: 1379px;
+    height: 4038px;
+}
+
+.video-captions {
+    width: 1280px;
+    height: 64px;
+    padding: 20px 0 8px 0;
+}
+
+.caption-top h1 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.caption-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: 40px;
+}
+
+.caption-bottom p {
+    display: inline-flex;
+    font-weight: 400;
+    opacity: .7;
+}
+
+.like-bar {
+    display: inline-flex;
+}
+
+.like-bar * {
+    display: inline-flex;
+    align-items: center;
+    font-size: 13px;
+    opacity: .7;
+    text-decoration: none;
+    color: #000;
+}
+
+.thumb {
+    width: 58px;
+    padding-right: 8px;
+}
+
+.like-bar-item-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 36px;
+    padding: 8px;
+    margin-left: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #fff;
+}
+
+.like-bar-item-button:hover {
+    opacity: 1;
+}
+
+.like-bar-item span {
+    font-weight: 500;
+}
+
+.lb-menu-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 36px;
+    padding: 8px;
+    margin-left: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #fff;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++ Aside ++++++++++++++++++++++++++++++++++++++ */
+
+
+.video-bar {
+    display: inline-flex;
+    width: 402px;
+    padding-left: 24px;
+}
+
+
+
+
+
+
