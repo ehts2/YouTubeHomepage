@@ -229,9 +229,123 @@ input {
 
 
 .video-bar {
-    display: inline-flex;
     width: 402px;
     padding-left: 24px;
+}
+
+.vb-head {
+    width: 402px;
+    height: 22px;
+    margin-bottom: 12px;
+}
+
+.vb-head span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.autoplay {
+    display: inline-flex;
+    float: right;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.toggle-switch {
+    display: inline-flex;
+    align-items: center;
+    width: 62px;
+    height: 22px;
+    margin-left: 8px;
+}
+
+.ts-base {
+    display: inline-flex;
+    width: 36px;
+    height: 14px;
+    margin: 1px 4px;
+    border-radius: 10px;
+    background-color: #2793e6;
+    opacity: .5;
+}
+
+.ts-button {
+    position: absolute;
+    right: 117px;
+    top: 81px;
+    width: 20px;
+    height: 20px;
+    margin: 1px 4px;
+    border-radius: 100%;
+    background-color: #2793e6;
+    opacity: 1;
+}
+
+.autoplay span {
+    color: #888;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: .007px;
+    text-transform: uppercase;
+}
+
+.vl-video {
+    display: flex;
+    width: 402px;
+    height: 94px;
+    padding-bottom: 16px;
+}
+
+.thumbnail {
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 168;
+    height: 94px;
+    margin-right: 8px;
+    background: linear-gradient(45deg, red, blue);
+}
+
+.playtime {
+    display: inline-flex;
+    align-items: center;
+    width: 25.6px;
+    height: 14px;
+    margin: 4px;
+    background: #111;
+    opacity: .9;
+}
+
+.playtime span {
+    font-size: 12px;
+    color: #fff;
+}
+
+.vlv-info {
+    display: inline;
+    height: 82px;
+    width: 132px;
+    width: auto;
+}
+
+.vlv-info h3 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 15px;
+    margin-bottom: 4px;
+}
+
+.vlv-info h5 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    opacity: .8
+}
+
+.video-list hr {
+    border: .3;
+    margin: 0;
+    opacity: .4;
 }
 
 
