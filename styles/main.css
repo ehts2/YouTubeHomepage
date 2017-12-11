@@ -2,6 +2,26 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h2 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-decoration-style: solid;
+}
+
+h5 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    opacity: .8
+}
+
+hr {
+    margin: 16px 0;
+    border: .3;
+    opacity: .4;
+}
+
 anchor:hover,
 button:hover {
     cursor: pointer;
@@ -145,12 +165,17 @@ input {
 }
 
 .video-and-comments {
-    display: inline-flex;
+    display: block;
     width: 1379px;
     height: 4038px;
 }
 
+.main-video {
+    display: block;
+}
+
 .video-captions {
+    display: block;
     width: 1280px;
     height: 64px;
     padding: 20px 0 0 0;
@@ -233,6 +258,75 @@ input {
     margin: 2px;
     border: .3;
     opacity: .4;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++ Comment Section ++++++++++++++++++++++++++++++++++++++ */
+
+.comment-section {
+    display: flex;
+    padding-top: 15px;
+}
+
+.video-description {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%
+}
+
+.description-img-container {
+    height: 51px;
+    width: 64px;
+}
+
+.video-description img {
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+}
+
+.user-account {
+    display: block;
+}
+
+.subscribe-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    width: 149px;
+    padding: 10px 16px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #f00;
+}
+
+
+.about-video {
+    display: block;
+    width: 448px;
+    padding-top: 15px;
+    padding-left: 64px;
+    color: #111;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.more-about {
+    padding-top: 10px;
+    padding-left: 64px;
+}
+
+.more-about p {
+    color: #888;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: .007px;
+    text-transform: uppercase;
 }
 
 /* ++++++++++++++++++++++++++++++++++++++ Video Bar ++++++++++++++++++++++++++++++++++++++ */
@@ -348,19 +442,6 @@ input {
     font-weight: 600;
     line-height: 15px;
     margin-bottom: 4px;
-}
-
-.vlv-info h5 {
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 15px;
-    opacity: .8
-}
-
-.video-list hr {
-    margin: 16px 0;
-    border: .3;
-    opacity: .4;
 }
 
 .more-button {
